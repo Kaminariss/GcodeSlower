@@ -35,7 +35,7 @@ namespace GcodeSlower {
 			}
 
 			Console.WriteLine("Layers " + startLineIndexes.Count);
-			File.WriteAllLines(gcodeFileName + "p.gcode", lines);
+			File.WriteAllLines(gcodeFileName, lines);
 		}
 	}
 }
